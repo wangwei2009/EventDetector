@@ -1,0 +1,3 @@
+/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/edit_cache.dir
+/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/rebuild_cache.dir
+/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir
