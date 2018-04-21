@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/EventDetector.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/EventDetector.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/File.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/File.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/TestLocalFile.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/TestLocalFile.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/feature_aggregator.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/feature_aggregator.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/feature_normalizer.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/feature_normalizer.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/fft_window.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/fft_window.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/main.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/main.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/mel_basis.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/mel_basis.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/model.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/model.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/postprocessing.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/postprocessing.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/preprocessing.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/preprocessing.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/wavread.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/wavread.cpp.o"
-  "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/weights.cpp" "/home/wangwei/QtProjects/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/weights.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/EventDetector.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/File.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/File.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/TestLocalFile.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/feature_aggregator.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/feature_normalizer.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/fft_window.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/fft_window.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/main.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/main.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/mel_basis.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/model.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/model.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/postprocessing.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/preprocessing.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/wavread.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/wavread.cpp.o"
+  "/home/wangwei/Documents/Github/EventDetector/EventDetector/src/weights.cpp" "/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/src/weights.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

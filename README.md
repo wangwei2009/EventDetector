@@ -5,5 +5,9 @@ MLP Audio Event Detector
   Linux
  
 ## Dependencies
-- alsa
+- ALSA
+```
+sudo apt-get install libasound2-dev
+```
+
 - eigen

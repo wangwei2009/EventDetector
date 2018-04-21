@@ -3,20 +3,21 @@ cmake_minimum_required(VERSION 2.8)
 project(EventDetector)
 
 set(EXECUTABLE_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/bin")
+
 add_executable(${PROJECT_NAME} 
-   "main.cpp"
-    feature_aggregator.cpp
-    feature_normalizer.cpp
-    fft_window.cpp
-    mel_basis.cpp
-    weights.cpp
-    model.cpp
-    postprocessing.cpp
-    wavread.cpp
-    preprocessing.cpp
-    TestLocalFile.cpp
-    EventDetector.cpp
-    File.cpp
+    src/main.cpp
+    src/feature_aggregator.cpp
+    src/feature_normalizer.cpp
+    src/fft_window.cpp
+    src/mel_basis.cpp
+    src/weights.cpp
+    src/model.cpp
+    src/postprocessing.cpp
+    src/wavread.cpp
+    src/preprocessing.cpp
+    src/TestLocalFile.cpp
+    src/EventDetector.cpp
+    src/File.cpp
 )
 
 # where to find header files
