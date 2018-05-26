@@ -1,2 +1,2 @@
 #pragma once
-int TestLocalFile();
+int TestLocalFile(const char *filename);

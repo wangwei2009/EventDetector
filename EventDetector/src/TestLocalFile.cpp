@@ -21,7 +21,7 @@ using Eigen::Matrix;
 
 using namespace std;
 
-int TestLocalFile()
+int TestLocalFile(const char *filename)
 {
 	clock_t start_time = clock();
 
@@ -32,7 +32,7 @@ int TestLocalFile()
 	cout << sizeof(wav.channel) << endl;
 	cout << sizeof(wav.frequency) << endl;
 
-    char *filename = "record1.wav";
+    //char *filename = "record1.wav";
 
 	int pos = GetWavArgu(filename, &wav);
 	wav.wavdata = new double[wav.num_per_channel];

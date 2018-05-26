@@ -24,7 +24,7 @@ using namespace std;
 //	unsigned char *data;            //音频数据 ,这里要定义什么就看样本位数了，我这里只是单纯的复制数据
 //};
 
-int wavread(char *Filename, wav_struct* WAV,int pos)
+int wavread(const char *Filename, wav_struct* WAV,int pos)
 {
     fstream fs;
 //	wav_struct WAV;
@@ -164,7 +164,7 @@ int wavread(char *Filename, wav_struct* WAV,int pos)
     return 0;
 
 }
-int GetWavArgu(char *Filename,wav_struct* WAV)
+int GetWavArgu(const char *Filename,wav_struct* WAV)
 {
     fstream fs;
     fs.open(Filename, ios::binary | ios::in);

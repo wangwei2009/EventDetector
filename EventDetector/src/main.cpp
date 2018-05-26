@@ -26,6 +26,69 @@ using namespace std;
 extern double mel[40][1025];
 int main(int argc, char *argv[])
 {
+	
+        // +------------------------------------------------------+
+        // | Arguments                                            |
+        // +------------------------------------------------------+  
+
+            char *file_config = (char *) NULL;
+            char verbose = 0x00;
+			int c;
+
+            //type = processing_multithread;
+
+            while ((c = getopt(argc,argv, "w:hsv")) != -1) {
+
+                switch(c) {
+
+                    case 'w':
+
+                        file_config = (char *) malloc(sizeof(char) * (strlen(optarg)+1));
+                        strcpy(file_config, optarg); 
+                        TestLocalFile(file_config);
+						return 0;						
+
+                    break;
+
+                    case 'h':
+
+                        printf("+----------------------------------------------------+\n");
+                        printf("|        AED (Audio Event Detection)                 |\n");
+                        printf("+----------------------------------------------------+\n");
+                        printf("| Author:      Wang Wei                              |\n");
+                        printf("| Repository:  github.com/wangwei2009/EventDetector  |\n");
+                        printf("| Version:     1.0                                   |\n");
+                        printf("+----------------------------------------------------+\n");        
+                        printf("| -w       Configuration file (.cfg)                 |\n");
+                        printf("| -h       Help                                      |\n");
+                        printf("| -s       Process sequentially (no multithread)     |\n");
+                        printf("| -v       Verbose                                   |\n");
+                        printf("+----------------------------------------------------+\n");                
+
+                        exit(EXIT_SUCCESS);
+
+                    break;
+
+                    case 's':
+
+                        //type = processing_singlethread;
+
+                    break;
+
+                    case 'v':
+
+                        verbose = 0x01;
+
+                    break;
+
+                }
+
+            }
+
+            if (file_config == NULL) {
+                printf("Missing configuration file.\n");
+                exit(EXIT_FAILURE);
+            }
 
 //    TestLocalFile();
 //    return 0;
@@ -129,7 +192,7 @@ int main(int argc, char *argv[])
 
     MatrixXf event_segments;
     string falseCount = "0";
-    char * name = "false0.snd";
+    const char * name = "false0.snd";
     while(1){
     loops = loos_0;
     while (loops > 0)

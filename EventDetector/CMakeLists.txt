@@ -2,10 +2,15 @@ cmake_minimum_required(VERSION 2.8)
 
 project(EventDetector)
 
+# where to find header files
+include_directories("${PROJECT_SOURCE_DIR}/include")
+include_directories(../eigen/)
+
+set(CMAKE_BUILD_TYPE "Release")
+
 set(EXECUTABLE_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/bin")
 
-add_executable(${PROJECT_NAME} 
-    src/main.cpp
+set(SRC
     src/feature_aggregator.cpp
     src/feature_normalizer.cpp
     src/fft_window.cpp
@@ -18,15 +23,24 @@ add_executable(${PROJECT_NAME}
     src/TestLocalFile.cpp
     src/EventDetector.cpp
     src/File.cpp
+    )
+add_library(libEventDetector STATIC
+        ${SRC}
 )
 
-# where to find header files
-include_directories("${PROJECT_SOURCE_DIR}/include")
+add_executable(${PROJECT_NAME}
+    src/main.cpp
+)
 
-include_directories(../alsautils/)
-include_directories(../eigen/)
+target_link_libraries(${PROJECT_NAME}
+    m
+    pthread
+    asound
+    libEventDetector)
+
+
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-target_link_libraries(${PROJECT_NAME} m pthread asound)
+
 
 #SET(CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS ON)
 IF (CMAKE_SYSTEM_NAME MATCHES "Windows")

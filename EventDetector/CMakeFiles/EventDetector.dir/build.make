@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangwei/Documents/Github/EventDetector/EventDetector
+CMAKE_SOURCE_DIR = /mnt/g/Github/EventDetector/EventDetector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangwei/Documents/Github/EventDetector/EventDetector
+CMAKE_BINARY_DIR = /mnt/g/Github/EventDetector/EventDetector
 
 # Include any dependencies generated for this target.
 include CMakeFiles/EventDetector.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/EventDetector.dir/flags.make
 
 CMakeFiles/EventDetector.dir/src/main.cpp.o: CMakeFiles/EventDetector.dir/flags.make
 CMakeFiles/EventDetector.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EventDetector.dir/src/main.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/main.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/g/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EventDetector.dir/src/main.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/main.cpp.o -c /mnt/g/Github/EventDetector/EventDetector/src/main.cpp
 
 CMakeFiles/EventDetector.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/main.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/main.cpp > CMakeFiles/EventDetector.dir/src/main.cpp.i
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/g/Github/EventDetector/EventDetector/src/main.cpp > CMakeFiles/EventDetector.dir/src/main.cpp.i
 
 CMakeFiles/EventDetector.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/main.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/main.cpp -o CMakeFiles/EventDetector.dir/src/main.cpp.s
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/g/Github/EventDetector/EventDetector/src/main.cpp -o CMakeFiles/EventDetector.dir/src/main.cpp.s
 
 CMakeFiles/EventDetector.dir/src/main.cpp.o.requires:
 
@@ -81,329 +81,18 @@ CMakeFiles/EventDetector.dir/src/main.cpp.o.provides: CMakeFiles/EventDetector.d
 CMakeFiles/EventDetector.dir/src/main.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/main.cpp.o
 
 
-CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o: src/feature_aggregator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/feature_aggregator.cpp
-
-CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/feature_aggregator.cpp > CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.i
-
-CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/feature_aggregator.cpp -o CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.s
-
-CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o.provides: CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o
-
-
-CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o: src/feature_normalizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/feature_normalizer.cpp
-
-CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/feature_normalizer.cpp > CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.i
-
-CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/feature_normalizer.cpp -o CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.s
-
-CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o.provides: CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o
-
-
-CMakeFiles/EventDetector.dir/src/fft_window.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/fft_window.cpp.o: src/fft_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EventDetector.dir/src/fft_window.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/fft_window.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/fft_window.cpp
-
-CMakeFiles/EventDetector.dir/src/fft_window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/fft_window.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/fft_window.cpp > CMakeFiles/EventDetector.dir/src/fft_window.cpp.i
-
-CMakeFiles/EventDetector.dir/src/fft_window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/fft_window.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/fft_window.cpp -o CMakeFiles/EventDetector.dir/src/fft_window.cpp.s
-
-CMakeFiles/EventDetector.dir/src/fft_window.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/fft_window.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/fft_window.cpp.o.provides: CMakeFiles/EventDetector.dir/src/fft_window.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/fft_window.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/fft_window.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/fft_window.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/fft_window.cpp.o
-
-
-CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o: src/mel_basis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/mel_basis.cpp
-
-CMakeFiles/EventDetector.dir/src/mel_basis.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/mel_basis.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/mel_basis.cpp > CMakeFiles/EventDetector.dir/src/mel_basis.cpp.i
-
-CMakeFiles/EventDetector.dir/src/mel_basis.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/mel_basis.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/mel_basis.cpp -o CMakeFiles/EventDetector.dir/src/mel_basis.cpp.s
-
-CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o.provides: CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o
-
-
-CMakeFiles/EventDetector.dir/src/weights.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/weights.cpp.o: src/weights.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EventDetector.dir/src/weights.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/weights.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/weights.cpp
-
-CMakeFiles/EventDetector.dir/src/weights.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/weights.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/weights.cpp > CMakeFiles/EventDetector.dir/src/weights.cpp.i
-
-CMakeFiles/EventDetector.dir/src/weights.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/weights.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/weights.cpp -o CMakeFiles/EventDetector.dir/src/weights.cpp.s
-
-CMakeFiles/EventDetector.dir/src/weights.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/weights.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/weights.cpp.o.provides: CMakeFiles/EventDetector.dir/src/weights.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/weights.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/weights.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/weights.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/weights.cpp.o
-
-
-CMakeFiles/EventDetector.dir/src/model.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/model.cpp.o: src/model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EventDetector.dir/src/model.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/model.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/model.cpp
-
-CMakeFiles/EventDetector.dir/src/model.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/model.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/model.cpp > CMakeFiles/EventDetector.dir/src/model.cpp.i
-
-CMakeFiles/EventDetector.dir/src/model.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/model.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/model.cpp -o CMakeFiles/EventDetector.dir/src/model.cpp.s
-
-CMakeFiles/EventDetector.dir/src/model.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/model.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/model.cpp.o.provides: CMakeFiles/EventDetector.dir/src/model.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/model.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/model.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/model.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/model.cpp.o
-
-
-CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o: src/postprocessing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/postprocessing.cpp
-
-CMakeFiles/EventDetector.dir/src/postprocessing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/postprocessing.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/postprocessing.cpp > CMakeFiles/EventDetector.dir/src/postprocessing.cpp.i
-
-CMakeFiles/EventDetector.dir/src/postprocessing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/postprocessing.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/postprocessing.cpp -o CMakeFiles/EventDetector.dir/src/postprocessing.cpp.s
-
-CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o.provides: CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o
-
-
-CMakeFiles/EventDetector.dir/src/wavread.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/wavread.cpp.o: src/wavread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EventDetector.dir/src/wavread.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/wavread.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/wavread.cpp
-
-CMakeFiles/EventDetector.dir/src/wavread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/wavread.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/wavread.cpp > CMakeFiles/EventDetector.dir/src/wavread.cpp.i
-
-CMakeFiles/EventDetector.dir/src/wavread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/wavread.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/wavread.cpp -o CMakeFiles/EventDetector.dir/src/wavread.cpp.s
-
-CMakeFiles/EventDetector.dir/src/wavread.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/wavread.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/wavread.cpp.o.provides: CMakeFiles/EventDetector.dir/src/wavread.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/wavread.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/wavread.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/wavread.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/wavread.cpp.o
-
-
-CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o: src/preprocessing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/preprocessing.cpp
-
-CMakeFiles/EventDetector.dir/src/preprocessing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/preprocessing.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/preprocessing.cpp > CMakeFiles/EventDetector.dir/src/preprocessing.cpp.i
-
-CMakeFiles/EventDetector.dir/src/preprocessing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/preprocessing.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/preprocessing.cpp -o CMakeFiles/EventDetector.dir/src/preprocessing.cpp.s
-
-CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o.provides: CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o
-
-
-CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o: src/TestLocalFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/TestLocalFile.cpp
-
-CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/TestLocalFile.cpp > CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.i
-
-CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/TestLocalFile.cpp -o CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.s
-
-CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o.provides: CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o
-
-
-CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o: src/EventDetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/EventDetector.cpp
-
-CMakeFiles/EventDetector.dir/src/EventDetector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/EventDetector.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/EventDetector.cpp > CMakeFiles/EventDetector.dir/src/EventDetector.cpp.i
-
-CMakeFiles/EventDetector.dir/src/EventDetector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/EventDetector.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/EventDetector.cpp -o CMakeFiles/EventDetector.dir/src/EventDetector.cpp.s
-
-CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o.provides: CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o
-
-
-CMakeFiles/EventDetector.dir/src/File.cpp.o: CMakeFiles/EventDetector.dir/flags.make
-CMakeFiles/EventDetector.dir/src/File.cpp.o: src/File.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/EventDetector.dir/src/File.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventDetector.dir/src/File.cpp.o -c /home/wangwei/Documents/Github/EventDetector/EventDetector/src/File.cpp
-
-CMakeFiles/EventDetector.dir/src/File.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventDetector.dir/src/File.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangwei/Documents/Github/EventDetector/EventDetector/src/File.cpp > CMakeFiles/EventDetector.dir/src/File.cpp.i
-
-CMakeFiles/EventDetector.dir/src/File.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventDetector.dir/src/File.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangwei/Documents/Github/EventDetector/EventDetector/src/File.cpp -o CMakeFiles/EventDetector.dir/src/File.cpp.s
-
-CMakeFiles/EventDetector.dir/src/File.cpp.o.requires:
-
-.PHONY : CMakeFiles/EventDetector.dir/src/File.cpp.o.requires
-
-CMakeFiles/EventDetector.dir/src/File.cpp.o.provides: CMakeFiles/EventDetector.dir/src/File.cpp.o.requires
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/File.cpp.o.provides.build
-.PHONY : CMakeFiles/EventDetector.dir/src/File.cpp.o.provides
-
-CMakeFiles/EventDetector.dir/src/File.cpp.o.provides.build: CMakeFiles/EventDetector.dir/src/File.cpp.o
-
-
 # Object files for target EventDetector
 EventDetector_OBJECTS = \
-"CMakeFiles/EventDetector.dir/src/main.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/fft_window.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/weights.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/model.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/wavread.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o" \
-"CMakeFiles/EventDetector.dir/src/File.cpp.o"
+"CMakeFiles/EventDetector.dir/src/main.cpp.o"
 
 # External object files for target EventDetector
 EventDetector_EXTERNAL_OBJECTS =
 
 bin/EventDetector: CMakeFiles/EventDetector.dir/src/main.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/fft_window.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/weights.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/model.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/wavread.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o
-bin/EventDetector: CMakeFiles/EventDetector.dir/src/File.cpp.o
 bin/EventDetector: CMakeFiles/EventDetector.dir/build.make
+bin/EventDetector: liblibEventDetector.a
 bin/EventDetector: CMakeFiles/EventDetector.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable bin/EventDetector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/g/Github/EventDetector/EventDetector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/EventDetector"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EventDetector.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -412,18 +101,6 @@ CMakeFiles/EventDetector.dir/build: bin/EventDetector
 .PHONY : CMakeFiles/EventDetector.dir/build
 
 CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/main.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/fft_window.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/weights.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/model.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/wavread.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o.requires
-CMakeFiles/EventDetector.dir/requires: CMakeFiles/EventDetector.dir/src/File.cpp.o.requires
 
 .PHONY : CMakeFiles/EventDetector.dir/requires
 
@@ -432,6 +109,6 @@ CMakeFiles/EventDetector.dir/clean:
 .PHONY : CMakeFiles/EventDetector.dir/clean
 
 CMakeFiles/EventDetector.dir/depend:
-	cd /home/wangwei/Documents/Github/EventDetector/EventDetector && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wangwei/Documents/Github/EventDetector/EventDetector /home/wangwei/Documents/Github/EventDetector/EventDetector /home/wangwei/Documents/Github/EventDetector/EventDetector /home/wangwei/Documents/Github/EventDetector/EventDetector /home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/g/Github/EventDetector/EventDetector && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/g/Github/EventDetector/EventDetector /mnt/g/Github/EventDetector/EventDetector /mnt/g/Github/EventDetector/EventDetector /mnt/g/Github/EventDetector/EventDetector /mnt/g/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/EventDetector.dir/depend
 

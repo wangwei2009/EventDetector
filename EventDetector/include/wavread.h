@@ -15,7 +15,7 @@ struct wav_struct
 	double *wavdata;                //存储转换后的浮点数
 };
 
-int GetWavArgu(char *Filename,wav_struct* arg );
-int wavread(char *Filename, wav_struct* arg,int pos);
+int GetWavArgu(const char *Filename,wav_struct* arg );
+int wavread(const char *Filename, wav_struct* arg,int pos);
 
 #endif // WAVREAD_H

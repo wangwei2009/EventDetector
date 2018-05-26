@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangwei/Documents/Github/EventDetector/EventDetector
+CMAKE_SOURCE_DIR = /mnt/g/Github/EventDetector/EventDetector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangwei/Documents/Github/EventDetector/EventDetector
+CMAKE_BINARY_DIR = /mnt/g/Github/EventDetector/EventDetector
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles /home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/g/Github/EventDetector/EventDetector/CMakeFiles /mnt/g/Github/EventDetector/EventDetector/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/g/Github/EventDetector/EventDetector/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,13 +123,26 @@ EventDetector/fast:
 	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/build
 .PHONY : EventDetector/fast
 
+#=============================================================================
+# Target rules for targets named libEventDetector
+
+# Build rule for target.
+libEventDetector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libEventDetector
+.PHONY : libEventDetector
+
+# fast build rule for target.
+libEventDetector/fast:
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/build
+.PHONY : libEventDetector/fast
+
 src/EventDetector.o: src/EventDetector.cpp.o
 
 .PHONY : src/EventDetector.o
 
 # target to build an object file
 src/EventDetector.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/EventDetector.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/EventDetector.cpp.o
 .PHONY : src/EventDetector.cpp.o
 
 src/EventDetector.i: src/EventDetector.cpp.i
@@ -138,7 +151,7 @@ src/EventDetector.i: src/EventDetector.cpp.i
 
 # target to preprocess a source file
 src/EventDetector.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/EventDetector.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/EventDetector.cpp.i
 .PHONY : src/EventDetector.cpp.i
 
 src/EventDetector.s: src/EventDetector.cpp.s
@@ -147,7 +160,7 @@ src/EventDetector.s: src/EventDetector.cpp.s
 
 # target to generate assembly for a file
 src/EventDetector.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/EventDetector.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/EventDetector.cpp.s
 .PHONY : src/EventDetector.cpp.s
 
 src/File.o: src/File.cpp.o
@@ -156,7 +169,7 @@ src/File.o: src/File.cpp.o
 
 # target to build an object file
 src/File.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/File.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/File.cpp.o
 .PHONY : src/File.cpp.o
 
 src/File.i: src/File.cpp.i
@@ -165,7 +178,7 @@ src/File.i: src/File.cpp.i
 
 # target to preprocess a source file
 src/File.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/File.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/File.cpp.i
 .PHONY : src/File.cpp.i
 
 src/File.s: src/File.cpp.s
@@ -174,7 +187,7 @@ src/File.s: src/File.cpp.s
 
 # target to generate assembly for a file
 src/File.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/File.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/File.cpp.s
 .PHONY : src/File.cpp.s
 
 src/TestLocalFile.o: src/TestLocalFile.cpp.o
@@ -183,7 +196,7 @@ src/TestLocalFile.o: src/TestLocalFile.cpp.o
 
 # target to build an object file
 src/TestLocalFile.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/TestLocalFile.cpp.o
 .PHONY : src/TestLocalFile.cpp.o
 
 src/TestLocalFile.i: src/TestLocalFile.cpp.i
@@ -192,7 +205,7 @@ src/TestLocalFile.i: src/TestLocalFile.cpp.i
 
 # target to preprocess a source file
 src/TestLocalFile.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/TestLocalFile.cpp.i
 .PHONY : src/TestLocalFile.cpp.i
 
 src/TestLocalFile.s: src/TestLocalFile.cpp.s
@@ -201,7 +214,7 @@ src/TestLocalFile.s: src/TestLocalFile.cpp.s
 
 # target to generate assembly for a file
 src/TestLocalFile.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/TestLocalFile.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/TestLocalFile.cpp.s
 .PHONY : src/TestLocalFile.cpp.s
 
 src/feature_aggregator.o: src/feature_aggregator.cpp.o
@@ -210,7 +223,7 @@ src/feature_aggregator.o: src/feature_aggregator.cpp.o
 
 # target to build an object file
 src/feature_aggregator.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/feature_aggregator.cpp.o
 .PHONY : src/feature_aggregator.cpp.o
 
 src/feature_aggregator.i: src/feature_aggregator.cpp.i
@@ -219,7 +232,7 @@ src/feature_aggregator.i: src/feature_aggregator.cpp.i
 
 # target to preprocess a source file
 src/feature_aggregator.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/feature_aggregator.cpp.i
 .PHONY : src/feature_aggregator.cpp.i
 
 src/feature_aggregator.s: src/feature_aggregator.cpp.s
@@ -228,7 +241,7 @@ src/feature_aggregator.s: src/feature_aggregator.cpp.s
 
 # target to generate assembly for a file
 src/feature_aggregator.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/feature_aggregator.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/feature_aggregator.cpp.s
 .PHONY : src/feature_aggregator.cpp.s
 
 src/feature_normalizer.o: src/feature_normalizer.cpp.o
@@ -237,7 +250,7 @@ src/feature_normalizer.o: src/feature_normalizer.cpp.o
 
 # target to build an object file
 src/feature_normalizer.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/feature_normalizer.cpp.o
 .PHONY : src/feature_normalizer.cpp.o
 
 src/feature_normalizer.i: src/feature_normalizer.cpp.i
@@ -246,7 +259,7 @@ src/feature_normalizer.i: src/feature_normalizer.cpp.i
 
 # target to preprocess a source file
 src/feature_normalizer.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/feature_normalizer.cpp.i
 .PHONY : src/feature_normalizer.cpp.i
 
 src/feature_normalizer.s: src/feature_normalizer.cpp.s
@@ -255,7 +268,7 @@ src/feature_normalizer.s: src/feature_normalizer.cpp.s
 
 # target to generate assembly for a file
 src/feature_normalizer.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/feature_normalizer.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/feature_normalizer.cpp.s
 .PHONY : src/feature_normalizer.cpp.s
 
 src/fft_window.o: src/fft_window.cpp.o
@@ -264,7 +277,7 @@ src/fft_window.o: src/fft_window.cpp.o
 
 # target to build an object file
 src/fft_window.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/fft_window.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/fft_window.cpp.o
 .PHONY : src/fft_window.cpp.o
 
 src/fft_window.i: src/fft_window.cpp.i
@@ -273,7 +286,7 @@ src/fft_window.i: src/fft_window.cpp.i
 
 # target to preprocess a source file
 src/fft_window.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/fft_window.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/fft_window.cpp.i
 .PHONY : src/fft_window.cpp.i
 
 src/fft_window.s: src/fft_window.cpp.s
@@ -282,7 +295,7 @@ src/fft_window.s: src/fft_window.cpp.s
 
 # target to generate assembly for a file
 src/fft_window.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/fft_window.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/fft_window.cpp.s
 .PHONY : src/fft_window.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -318,7 +331,7 @@ src/mel_basis.o: src/mel_basis.cpp.o
 
 # target to build an object file
 src/mel_basis.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/mel_basis.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/mel_basis.cpp.o
 .PHONY : src/mel_basis.cpp.o
 
 src/mel_basis.i: src/mel_basis.cpp.i
@@ -327,7 +340,7 @@ src/mel_basis.i: src/mel_basis.cpp.i
 
 # target to preprocess a source file
 src/mel_basis.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/mel_basis.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/mel_basis.cpp.i
 .PHONY : src/mel_basis.cpp.i
 
 src/mel_basis.s: src/mel_basis.cpp.s
@@ -336,7 +349,7 @@ src/mel_basis.s: src/mel_basis.cpp.s
 
 # target to generate assembly for a file
 src/mel_basis.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/mel_basis.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/mel_basis.cpp.s
 .PHONY : src/mel_basis.cpp.s
 
 src/model.o: src/model.cpp.o
@@ -345,7 +358,7 @@ src/model.o: src/model.cpp.o
 
 # target to build an object file
 src/model.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/model.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/model.cpp.o
 .PHONY : src/model.cpp.o
 
 src/model.i: src/model.cpp.i
@@ -354,7 +367,7 @@ src/model.i: src/model.cpp.i
 
 # target to preprocess a source file
 src/model.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/model.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/model.cpp.i
 .PHONY : src/model.cpp.i
 
 src/model.s: src/model.cpp.s
@@ -363,7 +376,7 @@ src/model.s: src/model.cpp.s
 
 # target to generate assembly for a file
 src/model.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/model.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/model.cpp.s
 .PHONY : src/model.cpp.s
 
 src/postprocessing.o: src/postprocessing.cpp.o
@@ -372,7 +385,7 @@ src/postprocessing.o: src/postprocessing.cpp.o
 
 # target to build an object file
 src/postprocessing.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/postprocessing.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/postprocessing.cpp.o
 .PHONY : src/postprocessing.cpp.o
 
 src/postprocessing.i: src/postprocessing.cpp.i
@@ -381,7 +394,7 @@ src/postprocessing.i: src/postprocessing.cpp.i
 
 # target to preprocess a source file
 src/postprocessing.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/postprocessing.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/postprocessing.cpp.i
 .PHONY : src/postprocessing.cpp.i
 
 src/postprocessing.s: src/postprocessing.cpp.s
@@ -390,7 +403,7 @@ src/postprocessing.s: src/postprocessing.cpp.s
 
 # target to generate assembly for a file
 src/postprocessing.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/postprocessing.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/postprocessing.cpp.s
 .PHONY : src/postprocessing.cpp.s
 
 src/preprocessing.o: src/preprocessing.cpp.o
@@ -399,7 +412,7 @@ src/preprocessing.o: src/preprocessing.cpp.o
 
 # target to build an object file
 src/preprocessing.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/preprocessing.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/preprocessing.cpp.o
 .PHONY : src/preprocessing.cpp.o
 
 src/preprocessing.i: src/preprocessing.cpp.i
@@ -408,7 +421,7 @@ src/preprocessing.i: src/preprocessing.cpp.i
 
 # target to preprocess a source file
 src/preprocessing.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/preprocessing.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/preprocessing.cpp.i
 .PHONY : src/preprocessing.cpp.i
 
 src/preprocessing.s: src/preprocessing.cpp.s
@@ -417,7 +430,7 @@ src/preprocessing.s: src/preprocessing.cpp.s
 
 # target to generate assembly for a file
 src/preprocessing.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/preprocessing.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/preprocessing.cpp.s
 .PHONY : src/preprocessing.cpp.s
 
 src/wavread.o: src/wavread.cpp.o
@@ -426,7 +439,7 @@ src/wavread.o: src/wavread.cpp.o
 
 # target to build an object file
 src/wavread.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/wavread.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/wavread.cpp.o
 .PHONY : src/wavread.cpp.o
 
 src/wavread.i: src/wavread.cpp.i
@@ -435,7 +448,7 @@ src/wavread.i: src/wavread.cpp.i
 
 # target to preprocess a source file
 src/wavread.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/wavread.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/wavread.cpp.i
 .PHONY : src/wavread.cpp.i
 
 src/wavread.s: src/wavread.cpp.s
@@ -444,7 +457,7 @@ src/wavread.s: src/wavread.cpp.s
 
 # target to generate assembly for a file
 src/wavread.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/wavread.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/wavread.cpp.s
 .PHONY : src/wavread.cpp.s
 
 src/weights.o: src/weights.cpp.o
@@ -453,7 +466,7 @@ src/weights.o: src/weights.cpp.o
 
 # target to build an object file
 src/weights.cpp.o:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/weights.cpp.o
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/weights.cpp.o
 .PHONY : src/weights.cpp.o
 
 src/weights.i: src/weights.cpp.i
@@ -462,7 +475,7 @@ src/weights.i: src/weights.cpp.i
 
 # target to preprocess a source file
 src/weights.cpp.i:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/weights.cpp.i
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/weights.cpp.i
 .PHONY : src/weights.cpp.i
 
 src/weights.s: src/weights.cpp.s
@@ -471,7 +484,7 @@ src/weights.s: src/weights.cpp.s
 
 # target to generate assembly for a file
 src/weights.cpp.s:
-	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/src/weights.cpp.s
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/src/weights.cpp.s
 .PHONY : src/weights.cpp.s
 
 # Help Target
@@ -483,6 +496,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... EventDetector"
+	@echo "... libEventDetector"
 	@echo "... src/EventDetector.o"
 	@echo "... src/EventDetector.i"
 	@echo "... src/EventDetector.s"

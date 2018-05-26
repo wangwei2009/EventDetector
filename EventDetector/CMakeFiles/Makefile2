@@ -54,19 +54,19 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangwei/Documents/Github/EventDetector/EventDetector
+CMAKE_SOURCE_DIR = /mnt/g/Github/EventDetector/EventDetector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangwei/Documents/Github/EventDetector/EventDetector
+CMAKE_BINARY_DIR = /mnt/g/Github/EventDetector/EventDetector
 
 #=============================================================================
 # Target rules for target CMakeFiles/EventDetector.dir
 
 # All Build rule for target.
-CMakeFiles/EventDetector.dir/all:
+CMakeFiles/EventDetector.dir/all: CMakeFiles/libEventDetector.dir/all
 	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/depend
 	$(MAKE) -f CMakeFiles/EventDetector.dir/build.make CMakeFiles/EventDetector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target EventDetector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/g/Github/EventDetector/EventDetector/CMakeFiles --progress-num=1,2 "Built target EventDetector"
 .PHONY : CMakeFiles/EventDetector.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/EventDetector.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/EventDetector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/g/Github/EventDetector/EventDetector/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/EventDetector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangwei/Documents/Github/EventDetector/EventDetector/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/g/Github/EventDetector/EventDetector/CMakeFiles 0
 .PHONY : CMakeFiles/EventDetector.dir/rule
 
 # Convenience name for target.
@@ -93,6 +93,43 @@ CMakeFiles/EventDetector.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/EventDetector.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/libEventDetector.dir
+
+# All Build rule for target.
+CMakeFiles/libEventDetector.dir/all:
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/depend
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/g/Github/EventDetector/EventDetector/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target libEventDetector"
+.PHONY : CMakeFiles/libEventDetector.dir/all
+
+# Include target in all.
+all: CMakeFiles/libEventDetector.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/libEventDetector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/g/Github/EventDetector/EventDetector/CMakeFiles 13
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libEventDetector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/g/Github/EventDetector/EventDetector/CMakeFiles 0
+.PHONY : CMakeFiles/libEventDetector.dir/rule
+
+# Convenience name for target.
+libEventDetector: CMakeFiles/libEventDetector.dir/rule
+
+.PHONY : libEventDetector
+
+# clean rule for target.
+CMakeFiles/libEventDetector.dir/clean:
+	$(MAKE) -f CMakeFiles/libEventDetector.dir/build.make CMakeFiles/libEventDetector.dir/clean
+.PHONY : CMakeFiles/libEventDetector.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/libEventDetector.dir/clean
 
 .PHONY : clean
 
