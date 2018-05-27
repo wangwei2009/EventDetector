@@ -2,6 +2,8 @@
 
 EventDetector/bin/EventDetector
 
+EventDetector/Makefile
+
 EventDetector/CMakeFiles/
 
 cmake_install.cmake
