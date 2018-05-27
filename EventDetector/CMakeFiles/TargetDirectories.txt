@@ -1,4 +1,0 @@
-/mnt/g/Github/EventDetector/EventDetector/CMakeFiles/edit_cache.dir
-/mnt/g/Github/EventDetector/EventDetector/CMakeFiles/rebuild_cache.dir
-/mnt/g/Github/EventDetector/EventDetector/CMakeFiles/EventDetector.dir
-/mnt/g/Github/EventDetector/EventDetector/CMakeFiles/libEventDetector.dir

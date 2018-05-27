@@ -1,1 +1,0 @@
-/usr/bin/g++    -std=c++11 -O3 -DNDEBUG   CMakeFiles/EventDetector.dir/src/main.cpp.o  -o bin/EventDetector -rdynamic -lm -lpthread -lasound liblibEventDetector.a 
